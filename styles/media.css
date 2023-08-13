@@ -1,0 +1,152 @@
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .portfolio-item {
+        flex-basis: 28rem;
+    }
+
+    .newsletter-text {
+        max-width: 28rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-bottom {
+        margin: top 3rem;
+    }
+
+    .header-content-wrapper {
+        max-width: 100%;
+    }
+
+    .header-content-right {
+        margin-bottom: 2rem;
+    }
+
+    .header-content-links {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .companise {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-item {
+        flex-basis: 20rem;
+    }
+
+    .newsletter-text {
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .nav {
+        position: relative;
+    }
+
+    .menu {
+        padding: 2rem 1rem;
+        position: fixed;
+        top: 0;
+        left: -256px;
+        bottom: 0;
+        background-color: rgba(86, 165, 234, 0.697);
+        width: 16rem;
+        /* height: 42rem; */
+        flex-direction: column;
+        transition: 0.3s all;
+    }
+
+    .menu-item {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .header-icon-berger {
+        display: block;
+    }
+
+    .works-content-item {
+        margin-top: 2.5rem;
+        flex-shrink: 0;
+        flex-basis: 14rem;
+    }
+
+    .comments {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .companise {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2.5rem;
+
+    }
+
+    .portfolio-item {
+        flex-basis: 100%;
+    }
+    .newsletter-wrapper { 
+        flex-direction: column;
+    }
+    .newsletter-email{
+        flex-basis: auto;
+        width: 100%;
+    }
+    .newsletter-text {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header-content-left {
+        text-align: center;
+    }
+
+    .works-content-item {
+
+        flex-basis: 100%;
+    }
+
+    .works-content-text {
+        max-width: 100%;
+    }
+
+    .comment {
+        flex-basis: 100%;
+    }
+}
